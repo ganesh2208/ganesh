@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-26T03:59:20.579Z",
+        "line": 6,
+        "name": "Add two numbers",
+        "description": "",
+        "id": "working-of-calculator;add-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1939100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter 50 in the calculator",
+            "match": {
+              "location": "firsttest.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 236300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I press add",
+            "match": {
+              "location": "firsttest.step2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter 70",
+            "match": {
+              "location": "firsttest.step3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I press equals button",
+            "match": {
+              "location": "firsttest.step4()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The result should be 120 on the screen",
+            "match": {
+              "location": "firsttest.step5()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Working of calculator",
+    "description": "  Tests the fuctionality of the calculator",
+    "id": "working-of-calculator",
+    "keyword": "Feature",
+    "uri": "classpath:firsttest/testCaluculator.feature",
+    "tags": []
+  }
+]
